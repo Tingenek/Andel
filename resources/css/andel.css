@@ -1,0 +1,322 @@
+/* Resets */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input {
+	margin: 0;
+	padding: 0;
+}
+
+/* Turn off blue border */
+*:focus {
+	outline: 0;
+}
+
+body {
+	font-family: "PT Sans", verdana, arial, helvetica, sans-serif;
+	font-size: 11pt;
+	line-height: 1.4em;
+	background-color:#272b30;	
+	color:#efefef;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+a{
+	color:#efefef;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 3px;
+	margin-bottom: 10px;
+}
+
+table th {
+	background-color: #837E7E;
+	color: #e6e6e6;
+	padding: 2px;
+		text-align: left;
+}
+
+table td {
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+table caption {
+	text-align: left;
+	margin-bottom: 5px;
+	padding: 2px;
+}
+
+/* Structure */
+#header {
+	height: 50px;
+/*	border-bottom: 5px solid gray; */
+	margin-bottom: 10px;
+}
+
+#header h2 {
+	font-size: 2.7em;
+	color:#f89406;
+}
+
+#content {
+	min-height: 500px;
+	width: 100%;
+	display: block;
+	/*	border:1px solid gray;*/
+}
+
+#localnav {
+	width: 100%;
+	display: block;
+	/*	border:1px solid gray;*/
+	padding-top: 5px;
+}
+
+#home {
+	height: 50px;
+}
+
+/* Left side navigation */
+.localnav ul {
+	display: block;
+}
+
+.localnav li {
+/*	border-bottom: 1px solid #efefef; */
+ border-bottom: 1px solid #5B5B5B;
+	text-align: left;
+	overflow: hidden;
+}
+
+.localnav li a {
+	display: block;
+/*	color: #5B5B5B; */
+color:#efefef;
+	text-decoration: none;
+	line-height: 20px;
+	font-size: 1em;
+	float: left;
+	width: 100%;
+}
+
+.localnav li a:hover {
+	color: #000;
+	background: #ccc;
+}
+
+.facet {
+	margin-bottom: 10px;
+}
+
+.blockform .xforms-group {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+.blockform .xforms-control {
+	display: table-row;
+	font-family: "PT Sans";
+	font-size: 1.0em;
+/*	color: #5B5B5B; */
+	line-height: 1.4em;
+}
+
+.blockform .xforms-required .xforms-required-icon {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.blockform .xforms-alert-icon {
+	display: none; 
+}
+
+.blockform .xforms-label {
+	display: table-cell;
+	width: 90px;
+	text-align: right;
+	vertical-align: middle;
+	height: 0.8em;
+	font-size: 1.2em;
+}
+
+.blockform .xforms-value {
+	display: table-cell;
+	min-width: 430px;
+	margin-left: 10px;
+	padding: 2px;
+	margin: 5px;
+	font-family: "PT Sans";
+	font-size: 1.0em;
+	color:black;
+/*	background-color: #ccc; */
+}
+
+.blockform .xforms-output .xforms-value {
+	margin-left: 5px;
+	color:#efefef;
+}
+
+.blockform .xforms-invalid  .xforms-label {
+	color: red;
+}
+
+.blockform  textarea {
+	width: 430px;
+	min-height: 200px;
+	background: #dbdbdb;
+	border: 1px solid #dbdbdb;
+}
+
+.blockform .xforms-trigger button .xforms-label {
+	text-align: center;
+	padding-right: 0;
+}
+
+.blockform .xforms-item {
+	float: left;
+	color:#efefef;
+}
+
+.blockform input {
+	background: #dbdbdb;
+	border: 1px solid #dbdbdb;
+}
+
+
+.localnav dl {
+	display: block;
+}
+
+.localnav dt {
+	font-size: 0.9em;
+	text-align: left;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.localnav dd {
+		font-size: 1.2em;
+	margin-top: 5px;
+	text-align: left;
+	overflow: hidden;
+	margin-left: 0px;
+}
+
+.inbox input {
+	width: 70%;
+	height: 26px;
+	padding: 0 4px;
+	background: #dbdbdb;
+	border: 1px solid #dbdbdb;
+	font-size: 1.2em;
+	margin-bottom:20px;
+}
+
+.inbox .xforms-label {
+	font-size: 1.2em;
+}
+
+.title {
+	width: 99%;
+	margin-bottom: 10px;
+	background-color: #EDEDED;
+	color: #5B5B5B;
+	height: 26px;
+	padding: 5px 5px 2px 5px;
+}
+
+.title h2 {
+	text-align: center;
+}
+
+#result_btns {
+	height: 30px;
+}
+
+#result_btns .result_totals span {
+	float: right;
+	font-size: 1.0em;
+	vertical-align: bottom;
+}
+
+#result_btns .result_head span {
+	padding-top: 2px;
+	margin-left: 40px;
+	font-size: 1.2em;
+	vertical-align: bottom;
+	margin-right:20px;
+}
+
+.result_table {
+	width:100%;
+}
+
+.result_table a{
+	color:#efefef;
+	text-decoration: none;
+}
+
+
+.result_table a:hover {
+	color: #000;
+	background: #ccc;
+}
+
+.cat_bar{
+		font-size: 1.2em;
+}
+.cat_bar img {
+	margin-right:2px;
+}
+
+.cat_bar input {
+}
+
+.cat_bar .xforms-label {
+	font-size: 1.2em;
+	margin-left:5px;
+}
+
+.filter {
+	min-height:100px;
+}
+
+.btn_tags{
+	display: block;
+}
+
+ .btn_tags a {
+    float: right;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+  	color: #f89406;
+}
+
+.btn_delete {
+	 float:right;
+}
+.btn_delete button {
+	color:red;
+}
+
+.btn_new {
+	 float:right;
+	 border-bottom: 1px solid #f89406;
+}
+.btn_new a {
+	
+	text-decoration: none;
+}
+
+a.tag {
+	color:#f89406;	
+}
+
+
+
